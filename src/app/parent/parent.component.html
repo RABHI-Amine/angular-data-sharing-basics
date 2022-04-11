@@ -1,0 +1,6 @@
+<h1>Parent</h1>
+Message: {{message}}
+<app-child 
+    [message]="message"
+    (messageEvent)="recieve($event)"    
+></app-child>

@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+app-child{
+    background-color: red;
+    color: aqua;
+}
+
